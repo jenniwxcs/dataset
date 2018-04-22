@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href ="style.css" />
+  </head>
+  <body>
+    <h1>Welcome</h1>
+
+    <div id="info">
+      <button onClick="start(5)" type="button">Get Top 5</button>
+      <button onClick="start(10)" type="button">Get Top 10</button>
+      <button onClick="start()" type="button">Rank All Items</button>
+    </div>
+
+    <div id="comparison" class="no-display">
+      <h4>Question No. <span id="qn"></span></h4>
+      <div class="equal">
+        <div class="row">
+          <div class="left" onClick="chooseLeft()">1</div>
+          <div class="right" onClick="chooseRight()">2</div>
+        </div>
+      </div>
+      <div class="bottom" onClick="noChoice()">can't decide<br /></div>
+    </div>
+
+    <div id="results" class="no-display">
+    </div>
+  <script src="jquery.min.js"></script>
+  <script src="bisort.js"></script>
+  </body>
+</html>

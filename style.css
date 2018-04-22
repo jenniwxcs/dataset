@@ -1,0 +1,48 @@
+.equal {
+  display:table;
+  width: 100%;
+  height: 50%;
+}
+.row {
+  display:table-row;
+  width: 100%;
+}
+.row div {
+  display:table-cell;
+}
+.equal .row div {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.left {
+  background-color: #C1E05A;
+  width: 50%;
+  cursor: pointer;
+}
+.right {
+  background-color: #F7AC0C;
+  width: 50%;
+  cursor: pointer;
+}
+.bottom {
+  background-color: #FFEDC2;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  cursor: pointer;
+}
+.no-display {
+  display: none;
+}
+.row-even {
+  background-color: #C1E05A;
+}
+.row-odd {
+  background-color: #F7AC0C;
+}
+.rank {
+  width: 50%;
+}
